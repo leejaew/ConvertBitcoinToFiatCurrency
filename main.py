@@ -26,7 +26,7 @@ def get_btc_price(fiat_currency):
 
 # Test the function
 while True:
-    fiat_currency = input("Enter a fiat currency (e.g. USD, EUR, GBP): ")
+    fiat_currency = input("Enter a fiat currency: ")
     btc_price = get_btc_price(fiat_currency)
     if btc_price is not None:
         break
