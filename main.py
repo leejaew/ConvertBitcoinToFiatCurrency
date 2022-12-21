@@ -31,4 +31,4 @@ while True:
     if btc_price is not None:
         break
 
-print("The current price of 1 BTC is {} {}".format(btc_price, fiat_currency))
+print("The current price of 1 BTC is {} {}".format(btc_price, fiat_currency.upper()))
